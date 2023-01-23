@@ -93,10 +93,10 @@ public static class UICatalogue
 		propertyType ??= propertyInfo?.PropertyType ??
 			throw new ArgumentNullException(nameof(propertyType));
 
-		if (
-					!ValueTypeToComponentTypesLookup.TryGetValue(
-						key: propertyType,
-						value: out ImmutableList<ValueTypeToComponentTypesLookupItem?>? candidates))
+		if (!ValueTypeToComponentTypesLookup
+			.TryGetValue(
+				key: propertyType,
+				value: out ImmutableList<ValueTypeToComponentTypesLookupItem?>? candidates))
 		{
 			return null;
 		}
