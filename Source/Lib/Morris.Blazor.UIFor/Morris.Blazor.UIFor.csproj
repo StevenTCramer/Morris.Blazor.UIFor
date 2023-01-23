@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<Product>UIFor</Product>
+		<Description>A UI factory for Blazor</Description>
+		<PackageIcon>small-logo.png</PackageIcon>
+		<PackageTags>UI Blazor Factory DotNet CSharp</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+		<None Include="..\..\..\Images\`small-logo.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.2" />
+	</ItemGroup>
+
+</Project>

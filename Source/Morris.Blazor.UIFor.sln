@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morris.Blazor.UIFor", "Lib\Morris.Blazor.UIFor\Morris.Blazor.UIFor.csproj", "{ED05B18F-48ED-4CCB-835A-9C61D979C7E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{27A86963-BE78-4B30-B8BB-8B3D60D59741}"
+	ProjectSection(SolutionItems) = preProject
+		..\Docs\README.md = ..\Docs\README.md
+		..\Docs\releases.md = ..\Docs\releases.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{8CB144E4-DE63-4C25-98A3-0892FE24B2C9}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Directory.Build.props = Lib\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46614C18-3BC8-4524-93E7-A786BAEC99EC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED05B18F-48ED-4CCB-835A-9C61D979C7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED05B18F-48ED-4CCB-835A-9C61D979C7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED05B18F-48ED-4CCB-835A-9C61D979C7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED05B18F-48ED-4CCB-835A-9C61D979C7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED05B18F-48ED-4CCB-835A-9C61D979C7E5} = {8CB144E4-DE63-4C25-98A3-0892FE24B2C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBFFC2EB-CEB0-4865-8D0B-58A5B3D602D3}
+	EndGlobalSection
+EndGlobal
