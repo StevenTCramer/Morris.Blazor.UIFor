@@ -1,4 +1,4 @@
-# Morris.Blazor.UIFor - documentation
+# Morris.Blazor.UIFor - Documentation
 ![](./../Images/small-logo.png)
 
 ## Component decoupling
