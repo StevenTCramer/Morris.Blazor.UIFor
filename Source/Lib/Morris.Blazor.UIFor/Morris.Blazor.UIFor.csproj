@@ -9,7 +9,7 @@
 
 	<ItemGroup>
 		<SupportedPlatform Include="browser" />
-		<None Include="..\..\..\Images\`small-logo.png">
+		<None Include="..\..\..\Images\small-logo.png">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>

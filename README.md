@@ -6,13 +6,8 @@
 [![NuGet version (Morris.Blazor.UIFor)](https://img.shields.io/nuget/v/Morris.Blazor.UIFor.svg?style=flat-square)](https://www.nuget.org/packages/Morris.Blazor.UIFor/)
 
 ## Overview
-
-
-
-
-## Goal
-The aim of ***Morris.Blazor.UIFor*** is to create a...
-
+***Morris.Blazor.UIFor*** is a Blazor UI Factory that decouples components and encourages
+component reuse.
 
 ## Getting started
 
