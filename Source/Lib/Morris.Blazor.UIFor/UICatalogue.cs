@@ -110,7 +110,6 @@ public static class UICatalogue
 
 			if (currentCandidate.HasValue)
 			{
-
 				var currentResult = currentCandidate.Value.IsUIForDelegate(
 					ownerType: ownerType,
 					propertyInfo: propertyInfo);
