@@ -1,0 +1,1 @@
+dotnet build Source\Morris.Blazor.UIFor.sln -c Release -p:Sign=True
